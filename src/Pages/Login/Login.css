@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	min-width: 50%;
+	justify-content: center;
+}
+.play {
+	max-width: 40%;
+	margin-bottom: 20px;
+}

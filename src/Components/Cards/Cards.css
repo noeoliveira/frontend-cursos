@@ -1,0 +1,13 @@
+.base {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	min-width: 15rem;
+	width: 15rem;
+	margin: 10px;
+	background-color: #fff;
+}
