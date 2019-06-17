@@ -1,1 +1,1 @@
-web: npm build && cd /build
+web: npm build && serve -s build
