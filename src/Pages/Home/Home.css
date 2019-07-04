@@ -1,0 +1,9 @@
+.icon {
+	padding-right: 5px;
+}
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}

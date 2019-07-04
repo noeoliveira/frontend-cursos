@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav, Button, Spinner } from 'react-bootstrap';
 import { Cards } from '../../Components';
+import './Home.css';
 
 import Api from '../../Services/Api';
 
@@ -27,7 +28,13 @@ function Home() {
 					</Button>
 				</Nav>
 			</Navbar>
-			<Cards data={cursos} />
+			{cursos.length > 0 ? (
+				<Cards data={cursos} />
+			) : (
+				<div className='cards'>
+					<Spinner animation='border' variant='dark' />
+				</div>
+			)}
 		</>
 	);
 }

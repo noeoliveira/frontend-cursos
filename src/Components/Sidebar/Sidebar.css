@@ -1,0 +1,41 @@
+.btn-icons {
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.base-sidebar {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	float: left;
+	width: 250px;
+	min-height: 98vh;
+	margin: 5px 0 5px 0;
+	padding: 0;
+	background-color: #ffffff;
+	border-radius: 0 5px 5px 0;
+	border: 1px;
+	box-shadow: 2px 0px rgb(216, 215, 215);
+}
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex: 0 1 auto;
+	padding: 5px;
+}
+.header > :first-child {
+	align-self: flex-end;
+}
+hr {
+	height: 1px;
+	width: 100%;
+	background-color: darkgray;
+	opacity: 0.3;
+	margin-top: 30px;
+	margin-bottom: 0;
+}

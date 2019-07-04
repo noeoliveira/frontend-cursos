@@ -6,9 +6,8 @@ const options = { baseURL: 'https://api-file-auth.herokuapp.com/' };
 const Api = axios.create(options);
 
 Api.interceptors.request.use(async config => {
-	const token = getToken();
-	if (token) {
-		config.headers.Authorization = `Bearer ${token}`;
+	if (getToken) {
+		config.headers.Authorization = `Bearer ${getToken}`;
 	}
 	return config;
 });

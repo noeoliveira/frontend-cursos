@@ -10,7 +10,10 @@ function Cards(props) {
 			{data.map(item => {
 				return (
 					<Card className='card' key={item.id}>
-						<Card.Img variant='top' src='holder.js/100px180' />
+						<Card.Img
+							variant='top'
+							src='https://rockcontent.com/blog/wp-content/uploads/2017/01/formatos-de-imagem-2.jpg'
+						/>
 						<Card.Body>
 							<Card.Title>Card Title</Card.Title>
 							<Card.Text>

@@ -1,2 +1,4 @@
 import Cards from './Cards';
-export { Cards };
+import Sidebar from './Sidebar';
+import HeaderUser from './HeaderUser';
+export { Cards, Sidebar, HeaderUser };

@@ -1,0 +1,13 @@
+h1 {
+	font-size: 2rem;
+}
+.curso {
+	display: flex;
+	flex-direction: column;
+}
+.curso > :first-child {
+	align-self: center;
+}
+.list {
+	flex-grow: 1;
+}
